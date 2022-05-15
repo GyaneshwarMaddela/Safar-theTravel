@@ -1,0 +1,317 @@
+
+.navbar-default .navbar-nav>li>a {
+    color: #dcdde1;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Russo One', sans-serif;
+}
+#navtop a
+{
+    font-size: 0.896rem;
+    padding: 3px;
+    color: black;
+}
+.img-responsive
+{
+    margin-top: 10px;
+}
+
+/* home page img responsive */
+.homepage-img
+{
+    
+   
+        width: 100%;
+        height: 425px;
+      
+}
+
+
+/* background img for review page */
+.bg-img {
+    /* The image used */
+    background-image:url("https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+/* padding for form in rveiew page */
+.form-horizontal
+{
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-right: -420px;
+}
+
+
+/* explore page span margin */
+span#span1
+{
+    border-style: outset;
+    text-decoration: underline;
+    color: #273c75;
+}
+
+
+ 
+
+.d-flex
+{
+    margin-left: 1000px;
+    margin-right: 100px;
+}
+
+.btn-btn-outline-success
+{
+   margin-left: 105px;
+   margin-bottom: 10px;
+}
+
+/* review img */
+
+.review-img{
+    height: 75vh;
+    width: 99vw;
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('/img/review.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* review page form margin */
+/* #form2-margin
+{
+    margin-bottom: 0px;
+    padding-bottom:30px;
+} */
+
+#topfooter
+{
+    background-color:#596275;
+}
+footer p
+{
+    font-family: 'Darker Grotesque', sans-serif;
+    color: aliceblue;
+    text-align: justify;
+
+}
+footer i
+{
+    padding: 5px;
+    color: #dcdde1
+    
+}
+h3
+{
+    color: aliceblue;
+    font-weight: 800px;
+    font-family: 'Fira Sans', sans-serif;
+    /* text-align: center; */
+}
+footer a
+{
+    font-family: 'Darker Grotesque', sans-serif;
+    color: aliceblue;
+    text-align: justify;
+    text-decoration: none;
+    /* margin-left: 45px; */
+
+}
+#services
+{
+    font-family: 'Darker Grotesque', sans-serif;
+    color: aliceblue;
+    text-align: justify;
+    text-decoration: none;
+    /* margin-left: 48px; */
+
+}
+#contactus
+{
+    text-align: justify;
+    /* margin-left: 35px; */
+}
+iframe
+{
+    /* margin-left: 65px */
+}
+.container-fluid
+{
+    background-color: #303952;
+    
+}
+footer
+{
+/* position: absolute;
+ bottom: 0%;
+width: 100%  */
+}
+#sectionone
+{
+    background-color: #3498db;
+    color:  aliceblue;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    width: 100%;
+}
+#sectionone a{
+    color:aliceblue;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+header
+{
+   
+}
+nav
+{
+    margin-bottom: 0px;
+}
+.container-fluid
+{
+    margin-bottom: -20px;
+}
+#navbottom
+{
+    background-color: red;
+    margin-bottom: -20px;
+}
+
+.tit
+{
+    color: black;
+    font-weight: 1000px;
+    font-family: 'Fira Sans', sans-serif;
+   
+}
+/* #benifits h3
+{
+text-align: center;
+
+}
+#benifits p
+{
+text-align: center;
+text-align: justify;
+width: 300px
+
+}
+*/
+/* #benifits img
+{
+margin-left: 100px
+}  */
+#shiftright
+{
+    /* margin-left: 86px; */
+    margin-top: 1px
+}
+#navyblue
+{
+    background-color:#273c75;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: aliceblue;
+    padding: 4px;
+    margin-top: 25px;
+    
+}
+#gyaneshwarsolutions
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#subscribe
+{
+    background-color:#273c75;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: aliceblue;
+    /* padding: 4px; */
+    padding-bottom: 14px;
+
+}
+#client
+{
+    background-color: #dcdde1;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+#crumb
+{
+    background-color: #c8d6e5;
+    margin-top: -19px;
+    padding-bottom: -40px
+}
+.breadcrumb {
+
+    background-color: #c8d6e5;
+    
+    
+}
+.breadcrumb>li+li:before {
+   
+    color:  black;
+    
+}
+#sub2
+{
+    margin-top: 50px;
+    background-color:#273c75;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: aliceblue;
+    /* padding: 4px; */
+    padding-bottom: 14px;
+    margin-bottom: 50px;
+}
+#navyblue2
+{
+    background-color:#273c75;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: aliceblue;
+    padding: 4px;
+    margin-top: 15px;
+    
+}
+#client2
+{
+    background-color: #dcdde1;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+textarea
+{
+    resize: none;
+}
+#maps
+{
+    margin-top: 15px;
+    width: 100%;
+    margin-bottom: -2px;
+    background-color: white;
+    
+}
+.progress
+{
+    height: 30px;
+   
+}
+#progress
+{
+    margin-bottom: -30px;
+}
+a:hover{
+    color: black;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+

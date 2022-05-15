@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* a{
+    color: black;
+} */
+
+.main{
+    height: 75vh;
+    width: 99vw;
+}
+
+.homepage-img{
+    height: 75vh;
+    width: 100vw;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #dcdde1;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Russo One', sans-serif;
+}
+#navtop a
+{
+    font-size: 0.896rem;
+    padding: 3px;
+    color: black;
+}
+.img-responsive
+{
+    margin-top: 10px;
+}

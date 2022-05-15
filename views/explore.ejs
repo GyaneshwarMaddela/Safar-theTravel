@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+<link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|Fira+Sans&display=swap" rel="stylesheet">
+
+<title>About</title>
+</head>
+<body>
+    <!-- header section -->
+    <%-include('_header')%>
+
+
+<!-- Crumb start -->
+<section id="crumb">
+    <div class="container">
+        <h2>About us</h2>
+        <ol class="breadcrumb">
+            <li ><a href="">Home</a></li>
+            <li class="disable">About Us</li>
+
+        </ol>
+
+    </div>
+</section>
+<!-- Crumb end -->
+
+<!-- section start -->
+
+<section id="benifits">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="tit text-center">Welcome to Gyaneshwar Solutions</h3>
+                    <hr>
+                </div>
+                
+                <% for(let i of reviews){ %>
+
+                <div class="row">
+                   
+                    <div class="col-md-4 col-md-offset-1" >
+                        <img src="<%=i.image%>" alt="" width="300px" >
+                        <h3 class="user" style="color: black; border: 2px solid red;
+                        border-radius: 8px;
+                        padding: 5px;margin-right: 60px;  font-family: sans-serif;  font-weight: 750;"><%=i.username%></h3>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 ><span id="span1">Location </span>: <b><%=i.location%></b></h4>
+                        <h4><span id="span1">Experience</span>: <b><%=i.experience%></b> </h4>
+                        <h4><span id="span1">Places to Visit</span>: <b><%=i.places%></b> </h4>
+                        <h4><span id="span1">Rating</span>: <b> <%=i.rating%></b></h4>
+                        <h4><span id="span1">Expenditure</span>: <b> <%=i.expenditure%></b></h4>
+                        <div class="delete-btn" style="border-style: inset; margin-right: 480px;background-color: red;"; > <a href="/delete-review/?id=<%= i._id %>">Delete </a><i class="fas fa-trash"></i></div>
+
+                     <hr>  
+
+                    </div>
+                    
+                </div>
+                <% } %>
+                
+            </div>
+        
+            
+            
+        </div>
+    </section>
+
+
+    <!-- section end -->
+
+
+     
+ 
+
+<!-- footer section end -->
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<script>
+        // $(document).ready(function()
+        // {
+        //     $('#togg').click(function()
+        //     {
+        //         $('#data').slideToggle(1000);
+
+        //     })
+        // })
+	</script>   
+    <hr>
+     <%-include('_footer')%> 
+</body>
+</html>
